@@ -1,0 +1,22 @@
+{
+  "name": "spambug/ray",
+  "description": "A set of laravel component that primarily use tailwindcss and alpinejs.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Spambug\\Ray\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "spambug",
+      "email": "dev.mlimp@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "^10.2",
+    "illuminate/view": "^10.2"
+  }
+}
